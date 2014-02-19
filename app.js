@@ -27,9 +27,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
-
-app.get('/', function(req, res) {
-  res.redirect('/foo/bar');
+var hashT : {
+   'video' : 'youtube.com',
+   'Video' : 'Youtube.com'   
+};
+app.get('/:id', function(req, res) {
+  res.redirect('http://www.google.com/?id=' + req.params.id);
 });
 
 http.createServer(app).listen(app.get('port'), function(){
