@@ -28,11 +28,11 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 var hashT =  {
-   'video' : 'youtube.com',
-   'Video' : 'Youtube.com'   
+   'video' : 'http://youtube.com',
+   'Video' : 'http://Youtube.com'   
 };
 app.get('/:id', function(req, res) {
-  res.redirect('http://www.google.com/?id=' + req.params.id);
+  res.redirect(hashT[req.params.id]);
 });
 
 http.createServer(app).listen(app.get('port'), function(){
