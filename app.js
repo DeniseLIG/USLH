@@ -27,7 +27,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
-var hashT : {
+var hashT =  {
    'video' : 'youtube.com',
    'Video' : 'Youtube.com'   
 };
