@@ -28,8 +28,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 var hashT =  {
-   'video' : 'http://youtube.com',
-   'Video' : 'http://Youtube.com'   
+   'video' : 'http://www.youtube.com/watch?v=UcPJDtgWnwk#t=0',
+   'Video' : 'http://www.youtube.com/watch?v=UcPJDtgWnwk#t=0',
+   'MELKit' : 'http://resource.uslh.org/Willis+Maritime+Employers+Liability+Kit.pdf'
 };
 app.get('/:id', function(req, res) {
   res.redirect(hashT[req.params.id]);
