@@ -32,7 +32,7 @@ var hashT =  {
    'Video' : 'http://www.youtube.com/watch?v=UcPJDtgWnwk#t=0',
    'MELKit' : 'http://resource.uslh.org/Willis+Maritime+Employers+Liability+Kit.pdf',
    'SafeShore' : 'https://fs30.formsite.com/LIGMarine/form17/index.html',
-   'LIU' : 'https://fs30.formsite.com/LIGMarine/form24/index.html'
+   'LIU' : 'http://safeshore.uslh.org/LIU/Form'
 };
 app.get('/:id', function(req, res) {
   res.redirect(hashT[req.params.id]);
