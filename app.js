@@ -34,7 +34,7 @@ var hashT =  {
    'SafeShore' : 'https://fs30.formsite.com/LIGMarine/form17/index.html',
    'LIU' : 'http://safeshore.uslh.org/LIU/Form',
    'UmbrellaExcess': 'http://www.ligmarine.com/Dropbox/MarineFile/Umbrella',
-   'Navg': 'http://safeshore.uslh.org/Navg/Form'
+   'NAVG': 'http://safeshore.uslh.org/Navg/Form'
 };
 app.get('/:id', function(req, res) {
   res.redirect(hashT[req.params.id]);
