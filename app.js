@@ -35,6 +35,7 @@ var hashT =  {
    'LIU' : 'http://safeshore.uslh.org/LIU/Form',
    'UmbrellaExcess': 'http://www.ligmarine.com/Dropbox/MarineFile/Umbrella',
    'NAVG': 'http://safeshore.uslh.org/Navg/Form',
+   'virus': 'https://ninite.com/adaware-avast-avg-avira-essentials-malwarebytes-spybot2-super/',
    'MELInjury' : 'http://atlanta.blob.core.windows.net/public/maritime_employee_injury_report_form.docx'
 };
 app.get('/:id', function(req, res) {
