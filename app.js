@@ -31,10 +31,10 @@ var hashT =  {
    'video' : 'http://www.youtube.com/watch?v=UcPJDtgWnwk#t=0',
    'Video' : 'http://www.youtube.com/watch?v=UcPJDtgWnwk#t=0',
    'MELKit' : 'http://resource.uslh.org/Willis+Maritime+Employers+Liability+Kit.pdf',
-   'SafeShore' : 'https://fs30.formsite.com/LIGMarine/form17/index.html',
-   'LIU' : 'http://safeshore.uslh.org/LIU/Form',
+   'SafeShore' : 'http://safeshore.online/Submissions',
+   'LIU' : 'http://safeshore.online/LIU/Form',
    'UmbrellaExcess': 'http://www.ligmarine.com/Dropbox/MarineFile/Umbrella',
-   'NAVG': 'http://safeshore.uslh.org/Navg/Form',
+   'NAVG': 'http://safeshore.online/Navg/Form',
    'virus': 'https://ninite.com/adaware-avast-avg-avira-essentials-malwarebytes-spybot2-super/',
    'MELInjury' : 'http://atlanta.blob.core.windows.net/public/maritime_employee_injury_report_form.docx'
 };
