@@ -37,7 +37,9 @@ var hashT =  {
    'NAVG': 'http://safeshore.online/Navg/Form',
    'virus': 'https://ninite.com/adaware-avast-avg-avira-essentials-malwarebytes-spybot2-super/',
    'MELInjury' : 'http://atlanta.blob.core.windows.net/public/maritime_employee_injury_report_form.docx',
-   '7_Critical_Secrets' : 'http://atlanta.blob.core.windows.net/public/7_Critical_Secrets_to_Writing_Longshore_Insurance_2016.pdf'
+   '7_Critical_Secrets' : 'http://atlanta.blob.core.windows.net/public/7_Critical_Secrets_to_Writing_Longshore_Insurance_2016.pdf',
+   'SafeshoreFAQ' : 'https://www.signalmutual.com/media/210919/safeshore-product-reference-sheet.pdf',
+   'LossControl' : 'https://www.signalmutual.com/media/199739/safeshore-loss-control.pdf'
 };
 app.get('/:id', function(req, res) {
   res.redirect(hashT[req.params.id]);
