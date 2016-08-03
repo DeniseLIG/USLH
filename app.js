@@ -41,7 +41,9 @@ var hashT =  {
    'SafeshoreFAQ' : 'https://www.signalmutual.com/media/210919/safeshore-product-reference-sheet.pdf',
    'SafeShoreFAQ' : 'https://www.signalmutual.com/media/210919/safeshore-product-reference-sheet.pdf',
    'safeshoreFAQ' : 'https://www.signalmutual.com/media/210919/safeshore-product-reference-sheet.pdf',
-   'LossControl' : 'https://www.signalmutual.com/media/199739/safeshore-loss-control.pdf'
+   'LossControl' : 'https://www.signalmutual.com/media/199739/safeshore-loss-control.pdf',
+   'MEL' : 'http://www.ligmarine.com/WebinarArchive/Mar2015',
+   'MEL.pdf' : 'http://www.ligmarine.com/WebinarArchive/Mar2015'
 };
 app.get('/:id', function(req, res) {
   res.redirect(hashT[req.params.id]);
