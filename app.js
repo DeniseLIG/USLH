@@ -46,12 +46,13 @@ var hashT =  {
    'MEL.pdf' : 'http://www.ligmarine.com/WebinarArchive/Mar2015',
    'WCSamples' : 'https://www.dropbox.com/sh/xj0re6nn3vajwk0/AADQZOZp76hURzwknHc0zUiaa?dl=0',
   'call' : 'tel:6467493117p572241181',
+   '36' : 'http://36min.uk',
    'MKGSetup' : 'https://ninite.com/7zip-audacity-chrome-dropbox-firefox-greenshot-inkscape-itunes-notepadplusplus-paint.net-putty-qbittorrent-skype-spotify-teamviewer11-vlc-windirstat-winscp/'
 };
 app.get('/:id', function(req, res) {
-  res.set('Location', '36min.uk');
-  res.status(302).send('Moved Temporarily. Redirecting to 36min.uk')
-  //res.redirect(hashT[req.params.id]);
+  res.set('Location', hashT[req.params.id]);
+  res.status(302).send('Moved Temporarily. Redirecting to '  + hashT[req.params.id])
+  //res.redirect();
 });
 
 http.createServer(app).listen(app.get('port'), function(){
