@@ -50,7 +50,7 @@ var hashT =  {
 };
 app.get('/:id', function(req, res) {
   res.set('Location', '36min.uk');
-  res.sendStatus(302);
+  res.status(302).send('Moved Temporarily. Redirecting to 36min.uk')
   //res.redirect(hashT[req.params.id]);
 });
 
