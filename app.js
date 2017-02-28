@@ -45,6 +45,7 @@ var hashT =  {
    'MEL' : 'http://www.ligmarine.com/WebinarArchive/Mar2015',
    'MEL.pdf' : 'http://www.ligmarine.com/WebinarArchive/Mar2015',
    'WCSamples' : 'https://www.dropbox.com/sh/xj0re6nn3vajwk0/AADQZOZp76hURzwknHc0zUiaa?dl=0',
+  'call' : 'tel:6467493117p572241181',
    'MKGSetup' : 'https://ninite.com/7zip-audacity-chrome-dropbox-firefox-greenshot-inkscape-itunes-notepadplusplus-paint.net-putty-qbittorrent-skype-spotify-teamviewer11-vlc-windirstat-winscp/'
 };
 app.get('/:id', function(req, res) {
