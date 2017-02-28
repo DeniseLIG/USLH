@@ -49,7 +49,8 @@ var hashT =  {
    'MKGSetup' : 'https://ninite.com/7zip-audacity-chrome-dropbox-firefox-greenshot-inkscape-itunes-notepadplusplus-paint.net-putty-qbittorrent-skype-spotify-teamviewer11-vlc-windirstat-winscp/'
 };
 app.get('/:id', function(req, res) {
-  res.redirect(hashT[req.params.id]);
+  res.writeHead(302, {'Location': 'your/404/path.html' } });
+  res.end();  
 });
 
 http.createServer(app).listen(app.get('port'), function(){
